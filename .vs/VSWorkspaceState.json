@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github\\workflows"
+    "\\_includes\\scripts"
   ],
-  "SelectedNode": "\\Gemfile",
+  "SelectedNode": "\\_pages",
   "PreviewInSolutionExplorer": false
 }
