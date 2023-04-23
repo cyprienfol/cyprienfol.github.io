@@ -2,11 +2,21 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Cyprien Raymi Fol
     - name: Date of Birth
-      value: 14th March 1879
+      value: 7th March 1995
     - name: Languages
-      value: English, German
+      value: English, French, German, Spanish
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2022
+      items: 
+        - JSPS - Young Researchers' Fellowship  
+    - year: 2021
+      items: 
+        - ISPRS Travel Grant
 
 - title: Education
   type: time_table
@@ -68,16 +78,6 @@
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
