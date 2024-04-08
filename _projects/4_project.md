@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
+title: Virtual Reality
 description: another without an image
-img:
-importance: 3
-category: fun
+img: assets/img/virtual-reality.png
+importance: 4
+category: XR Project
 ---
 
 Every project has a beautiful feature showcase page.

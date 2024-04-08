@@ -1,24 +1,18 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Scanning
+description: Automatising the task of biodiversity segmentation
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Virtual Forest
 ---
+
+In the process of setting up Virtual Forest scanning is the first inevitable step. The field of forestry is very welcoming new technology especially when it comes to facilitate the collection of data. In our specific case, I addressed the problem of the lack of high resolution data for biodiversity segementation. Indeed Biodiversity feature can be really small like moss, mushroom or lichen. 
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

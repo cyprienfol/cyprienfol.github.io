@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
+title: Mixed Reality
 description: a project with no image
-img:
-importance: 4
-category: fun
+img: assets/img/mixed-reality.png
+importance: 6
+category: XR Project
 ---
 
 Every project has a beautiful feature showcase page.
