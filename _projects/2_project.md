@@ -6,10 +6,9 @@ img: assets/img/3.jpg
 importance: 2
 category: Spatial Mapping
 ---
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/georeferencing-tree-banner.jpg" title="youyanghu" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/georeferencing-tree-banner.jpg" title="Hu and Fol et al. 2024" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -20,7 +19,7 @@ Accurately georeferencing 3D data within forests is challenging due to the canop
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/immersive-flora-workflow.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/immersive-flora-workflow.png" title="Hu and Fol et al. 2024" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
