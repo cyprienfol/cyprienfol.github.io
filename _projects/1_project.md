@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Scanning
+title: 3D Biodiversity 
 description: Automatising the task of biodiversity segmentation
 img: assets/img/12.jpg
 importance: 1
-category: Virtual Forest
+category: Spatial Mapping 
 ---
 
 In the process of setting up Virtual Forest scanning is the first inevitable step. The field of forestry is very welcoming new technology especially when it comes to facilitate the collection of data. In our specific case, I addressed the problem of the lack of high resolution data for biodiversity segementation. Indeed Biodiversity feature can be really small like moss, mushroom or lichen. 

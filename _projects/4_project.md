@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Virtual Reality
+title: Immersive Flora
 description: another without an image
 img: assets/img/virtual-reality.png
 importance: 4
-category: XR Project
+category: Immersive Experience
 ---
 
 Every project has a beautiful feature showcase page.

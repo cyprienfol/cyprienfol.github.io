@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Processing
+title: Georeferencing Forest
 description: a project with a background image
 img: assets/img/3.jpg
 importance: 2
-category: Virtual Forest
+category: Spatial Mapping
 ---
 
 Every project has a beautiful feature showcase page.
