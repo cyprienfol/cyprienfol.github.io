@@ -8,7 +8,7 @@ category: Immersive Experience
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/labelling-flora-banner.png" title="Hu and Fol et al. 2024" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/labelling-flora-banner.jpg" title="Fol et al. 2022" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -19,9 +19,9 @@ Labelling Flora is a VR application designed to simplify the annotation of 3D po
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/immersive-flora-workflow.png" title="Hu and Fol et al. 2024" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/labelling-flora-examples.png" title="Fol et al. 2024" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-   Hu and Fol et al. 2024
+   Fol et al. 2022
 </div>
