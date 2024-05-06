@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Georeferencing 3D Forest
+title: Georeferencing Tree
 description: geolocate 3D scans under the canopy
-img: assets/img/3.jpg
+img: assets/img/immersive-flora-clip.gif
 importance: 2
 category: Spatial Mapping
 ---
@@ -14,8 +14,7 @@ category: Spatial Mapping
 <div class="caption">
     Hu and Fol et al. 2024
 </div>
-
-Accurately georeferencing 3D data within forests is challenging due to the canopy obstructing GPS/GNSS signals. This obstacle hinders the integration of 3D scans into geographic information system (GIS) and potential future applications in mixed reality (MR) headsets for real-time data visualisation. To overcome this challenge, we developed an indirect georeferencing methodology using spheres with known coordinates placed at the forest edge, where GPS/GNSS reception is more reliable. The following image illustrate the results we obtained when our methods was applied to mobile and stationnary laser scanner (MLS/TLS) 
+Accurately georeferencing 3D data within forests is challenging due to the canopy obstructing GPS/GNSS signals. This obstacle hinders the integration of 3D scans into geographic information systems (GIS) and potential future applications in mixed reality (MR) headsets for real-time data visualisation. To overcome this challenge, we developed an indirect georeferencing methodology using spheres with known coordinates placed at the forest edge, where GPS/GNSS reception is more reliable. The following image illustrates the results we obtained when our method was applied to mobile and stationary laser scanners (MLS/TLS).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

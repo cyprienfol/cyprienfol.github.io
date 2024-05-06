@@ -2,8 +2,8 @@
 layout: page
 title: Immersive Flora
 description: re-engage humans with nature
-img: assets/img/virtual-reality.png
-importance: 4
+img: assets/img/immersive-flora-clip.gif
+importance: 3
 category: Immersive Experience
 ---
 

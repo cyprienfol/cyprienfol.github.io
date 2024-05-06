@@ -14,8 +14,7 @@ category: Spatial Mapping
 <div class="caption">
     Hu and Fol et al. 2024
 </div>
-
-In the process of setting up Virtual Forest scanning is the first inevitable step. The field of forestry is very welcoming new technology especially when it comes to facilitate the collection of data. In our specific case, I addressed the problem of the lack of high resolution data for biodiversity segementation. Indeed Biodiversity feature can be really small like moss, mushroom or lichen. 
+To set up Virtual Forest, 3D mapping is crucial and can significantly enhance future national forest inventory. Although terrestrial laser scanning (TLS) has been adopted to obtain high-resolution 3D data, it is challenging to cover the entire forest with such high resolution. Therefore, we looked for an alternative method to capture tree stems in 3D, which includes small biodiversity indicators such as moss, mushrooms, and ivy. For that purpose, we benchmarked TLS against four 3D mapping techniques: close-range photogrammetry (CRP), fish-eye photogrammetry (FEP), mobile laser scanning (MLS), and mixed-reality depth camera (MRDC).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
