@@ -2,7 +2,7 @@
 layout: page
 title: 3D Mapping 
 description: Automatising the task of biodiversity segmentation
-img: assets/img/12.jpg
+img: assets/img/3D_Mapping_Icon.gif
 importance: 1
 category: Spatial Mapping 
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Labelling Flora
 description: facilitate 3D data annotation
-img: assets/img/7.jpg
+img: assets/img/Labelling-Flora-Icon.gif
 importance: 4
 category: Immersive Experience
 ---

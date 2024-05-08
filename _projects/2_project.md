@@ -2,7 +2,7 @@
 layout: page
 title: Georeferencing Tree
 description: geolocate 3D scans under the canopy
-img: assets/img/immersive-flora-clip.gif
+img: assets/img/Forest_Georef_Icon.gif
 importance: 2
 category: Spatial Mapping
 ---
