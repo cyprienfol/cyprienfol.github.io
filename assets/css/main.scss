@@ -1,0 +1,26 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Dimensions
+$max-content-width: {{ site.max_width }};
+
+@import
+  "variables",
+  "themes",
+  "layout",
+  "base",
+  "distill"
+;
+/* Adjust the width of the logo bar */
+.social {
+  width: 100%; /* Make the logo bar full width */
+  max-width: 300px; /* Set the maximum width of the logo bar */
+  margin: 0 auto; /* Center the logo bar horizontally */
+}
+
+/* Adjust the size of the social icons */
+.contact-icons a {
+  font-size: 40px; /* Set the font size of the social icons */
+}
