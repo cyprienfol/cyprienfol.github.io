@@ -7,13 +7,36 @@
   <a href="{{ project.url | relative_url }}">
   {%- endif %}
   <div class="card hoverable" style="width: 100%;">
-    {%- if project.img %}
-      {%- include figure.html
-         path=project.img
-         alt="project thumbnail" 
-         class="img-fluid" 
-         style="width:100%; height:auto; max-width: 100%;" -%}
-    {%- endif %}
+    {%- assign project_img_path = project.img | default: "" -%}
+    {%- if project_img_path != "" -%}
+      {%- assign filename_parts = project_img_path | split: '/' -%}
+      {%- assign filename_with_ext = filename_parts | last -%}
+      {%- assign base_filename = filename_with_ext | remove: ".gif" | remove: ".jpeg" | remove: ".jpg" | remove: ".png" | remove: ".tiff" -%}
+
+      {%- assign webp_preview_path = "/assets/img/project_previews/" | append: base_filename | append: ".webp" | relative_url -%}
+      {%- assign webm_video_path = "/assets/video/" | append: base_filename | append: ".webm" | relative_url -%}
+      {%- assign mp4_video_path = "/assets/video/" | append: base_filename | append: ".mp4" | relative_url -%}
+
+      <div class="project-media-container">
+        <!-- Static image for mobile and as fallback -->
+        <img src="{{ webp_preview_path }}"
+             alt="{{ project.title | default: 'Project preview' }}"
+             class="project-image img-fluid"
+             style="width:100%; height:auto; max-width: 100%;"
+             loading="lazy">
+
+        <!-- Video for desktop, initially hidden by CSS -->
+        <video class="project-video img-fluid"
+               loop muted playsinline
+               preload="metadata" loading="lazy"
+               width="100%" height="auto"
+               style="display: none; width:100%; height:auto; max-width: 100%;">
+          <source src="{{ webm_video_path }}" type="video/webm">
+          <source src="{{ mp4_video_path }}" type="video/mp4">
+          Your browser does not support the video tag. (This text can link to {{ webp_preview_path }})
+        </video>
+      </div>
+    {%- endif -%}
     <div class="card-body" style="padding: 1px; width: 100%;">
       <h2 class="card-title text-uppercase text-truncate" style="font-size: 25px;">{{ project.title }}</h2>
     </div>
